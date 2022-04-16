@@ -1,0 +1,244 @@
+[2022-03-27 11:32:24,359][Thread-1:6032][task_id:default][exception.py:8][ERROR][view: TestView, 错误: division by zero]
+[2022-03-27 11:32:32,847][Thread-1:6032][task_id:default][exception.py:8][ERROR][view: TestView, 错误: division by zero]
+[2022-03-27 11:33:22,084][MainThread:4284][task_id:django.utils.autoreload][autoreload.py:251][INFO][D:\pycharm\pythonProject\luffy\luffy\apps\home\views.py changed, reloading.]
+[2022-04-02 14:44:57,410][Thread-1:1560][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 方法 “GET” 不被允许。]
+[2022-04-02 14:45:10,181][Thread-1:1560][task_id:django.request][log.py:230][ERROR][Internal Server Error: /user/login/]
+Traceback (most recent call last):
+  File "D:\ENV\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\ENV\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ENV\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\ENV\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ENV\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\ENV\lib\site-packages\rest_framework\views.py", line 426, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[2022-04-02 14:46:05,761][Thread-1:4640][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: Class LoginModelSerialize missing "Meta.model" attribute]
+[2022-04-02 14:46:17,094][Thread-1:4640][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: Class LoginModelSerialize missing "Meta.model" attribute]
+[2022-04-02 14:46:46,014][Thread-1:12132][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: Cannot call `.is_valid()` as no `data=` keyword argument was passed when instantiating the serializer instance.]
+[2022-04-02 14:46:50,087][Thread-1:12132][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: Cannot call `.is_valid()` as no `data=` keyword argument was passed when instantiating the serializer instance.]
+[2022-04-02 14:46:50,967][Thread-1:12132][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: Cannot call `.is_valid()` as no `data=` keyword argument was passed when instantiating the serializer instance.]
+[2022-04-02 14:47:54,492][Thread-1:4784][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: Cannot call `.is_valid()` as no `data=` keyword argument was passed when instantiating the serializer instance.]
+[2022-04-02 14:48:24,586][Thread-1:408][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: Class LoginModelSerialize missing "Meta.model" attribute]
+[2022-04-02 14:48:27,232][Thread-1:408][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: Class LoginModelSerialize missing "Meta.model" attribute]
+[2022-04-02 14:48:27,948][Thread-1:408][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: Class LoginModelSerialize missing "Meta.model" attribute]
+[2022-04-02 14:48:50,636][Thread-1:11492][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: Cannot call `.is_valid()` as no `data=` keyword argument was passed when instantiating the serializer instance.]
+[2022-04-02 14:52:27,137][Thread-1:11620][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: Cannot call `.is_valid()` as no `data=` keyword argument was passed when instantiating the serializer instance.]
+[2022-04-02 14:53:47,614][Thread-1:11284][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: Class LoginModelSerialize missing "Meta.model" attribute]
+[2022-04-02 14:55:56,328][Thread-1:8584][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-02 14:56:00,435][Thread-1:8584][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-02 14:56:53,112][Thread-1:11956][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-02 14:56:55,005][Thread-1:11956][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-02 14:56:59,934][Thread-1:11956][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-02 14:57:04,983][Thread-1:11956][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-02 14:57:05,614][Thread-1:11956][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-02 14:58:32,048][Thread-1:10968][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: .validate() should return the validated data]
+[2022-04-02 15:00:19,565][Thread-1:4840][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: .validate() should return the validated data]
+[2022-04-02 15:00:22,164][Thread-1:4840][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: .validate() should return the validated data]
+[2022-04-02 15:00:26,757][Thread-1:4840][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: .validate() should return the validated data]
+[2022-04-02 15:00:35,537][Thread-1:10408][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: .validate() should return the validated data]
+[2022-04-02 15:00:37,882][Thread-1:10408][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: .validate() should return the validated data]
+[2022-04-02 15:00:43,775][Thread-1:10408][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: .validate() should return the validated data]
+[2022-04-02 15:00:54,914][Thread-1:12012][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: .validate() should return the validated data]
+[2022-04-02 15:00:59,832][Thread-1:12012][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: .validate() should return the validated data]
+[2022-04-02 17:59:15,843][Thread-1:1636][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'non_field_errors': [ErrorDetail(string='密码错误', code='invalid')]}]
+[2022-04-02 17:59:20,640][Thread-1:1636][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'non_field_errors': [ErrorDetail(string='用户不存在', code='invalid')]}]
+[2022-04-02 17:59:39,142][Thread-1:1636][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'non_field_errors': [ErrorDetail(string='密码错误', code='invalid')]}]
+[2022-04-02 17:59:59,328][Thread-1:1636][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'non_field_errors': [ErrorDetail(string='密码错误', code='invalid')]}]
+[2022-04-02 18:01:01,864][Thread-1:11596][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'non_field_errors': [ErrorDetail(string='密码错误', code='invalid')]}]
+[2022-04-04 10:13:21,982][Thread-1:11464][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'non_field_errors': [ErrorDetail(string='密码错误', code='invalid')]}]
+[2022-04-04 10:19:48,956][Thread-1:11464][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'non_field_errors': [ErrorDetail(string='密码错误', code='invalid')]}]
+[2022-04-04 12:30:48,094][Thread-1:7640][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'non_field_errors': [ErrorDetail(string='密码错误', code='invalid')]}]
+[2022-04-04 12:46:27,619][Thread-1:12172][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 方法 “GET” 不被允许。]
+[2022-04-04 15:47:09,201][Thread-1:6848][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 身份认证信息未提供。]
+[2022-04-04 15:47:10,397][Thread-1:6848][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 身份认证信息未提供。]
+[2022-04-04 15:59:06,357][Thread-1:1752][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 方法 “POST” 不被允许。]
+[2022-04-04 15:59:12,479][Thread-1:1752][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 方法 “PUT” 不被允许。]
+[2022-04-04 15:59:16,466][Thread-1:1752][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 方法 “PATCH” 不被允许。]
+[2022-04-04 15:59:19,935][Thread-1:1752][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 方法 “DELETE” 不被允许。]
+[2022-04-04 15:59:22,916][Thread-1:1752][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 方法 “COPY” 不被允许。]
+[2022-04-04 15:59:55,767][Thread-2:11464][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 方法 “LINK” 不被允许。]
+[2022-04-04 15:59:58,733][Thread-2:11464][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 方法 “UNLINK” 不被允许。]
+[2022-04-04 16:00:02,864][Thread-2:11464][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 方法 “PURGE” 不被允许。]
+[2022-04-04 16:00:05,670][Thread-2:11464][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 方法 “LOCK” 不被允许。]
+[2022-04-04 16:00:10,635][Thread-2:11464][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 方法 “PROPFIND” 不被允许。]
+[2022-04-04 16:00:13,601][Thread-2:11464][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 方法 “VIEW” 不被允许。]
+[2022-04-07 15:51:03,727][Thread-2:13088][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: Signature has expired.]
+[2022-04-07 16:21:16,797][Thread-1:9400][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: Signature has expired.]
+[2022-04-07 16:21:36,317][Thread-1:9400][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: Signature has expired.]
+[2022-04-07 16:21:59,684][Thread-1:12524][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: Signature has expired.]
+[2022-04-07 16:51:39,568][Thread-1:10812][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 签名不合法]
+[2022-04-07 16:51:51,546][Thread-1:10812][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 签名不合法]
+[2022-04-07 16:51:52,264][Thread-1:10812][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 签名不合法]
+[2022-04-07 16:52:10,812][Thread-1:10812][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 签名不合法]
+[2022-04-07 16:52:12,992][Thread-1:10812][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 签名不合法]
+[2022-04-07 16:53:47,877][Thread-1:3844][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 签名不合法]
+[2022-04-07 16:53:48,610][Thread-1:3844][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 签名不合法]
+[2022-04-07 16:54:41,244][Thread-1:5360][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 签名错误]
+[2022-04-07 16:54:42,486][Thread-1:5360][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 签名错误]
+[2022-04-07 16:55:05,031][Thread-1:5360][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 签名错误]
+[2022-04-07 16:55:09,181][Thread-1:5360][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 签名错误]
+[2022-04-07 16:55:10,461][Thread-1:5360][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 签名错误]
+[2022-04-07 16:55:11,012][Thread-1:5360][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 签名错误]
+[2022-04-07 17:02:09,445][Thread-1:5360][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'non_field_errors': [ErrorDetail(string='用户不存在', code='invalid')]}]
+[2022-04-07 17:02:20,471][Thread-1:5360][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'non_field_errors': [ErrorDetail(string='密码错误', code='invalid')]}]
+[2022-04-09 12:28:00,018][Thread-3:11048][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 方法 “GET” 不被允许。]
+[2022-04-09 12:29:36,310][Thread-9:11488][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'non_field_errors': [ErrorDetail(string='用户不存在', code='invalid')]}]
+[2022-04-09 12:29:50,561][Thread-9:11488][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'non_field_errors': [ErrorDetail(string='用户不存在', code='invalid')]}]
+[2022-04-09 12:30:23,607][Thread-9:11488][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'non_field_errors': [ErrorDetail(string='用户不存在', code='invalid')]}]
+[2022-04-09 12:30:24,873][Thread-9:11488][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'non_field_errors': [ErrorDetail(string='用户不存在', code='invalid')]}]
+[2022-04-09 12:30:54,795][Thread-9:11488][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'non_field_errors': [ErrorDetail(string='用户不存在', code='invalid')]}]
+[2022-04-09 12:33:00,577][Thread-1:4140][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'non_field_errors': [ErrorDetail(string='用户不存在', code='invalid')]}]
+[2022-04-09 13:41:22,024][Thread-1:10784][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 你没有携带认证参数]
+[2022-04-09 13:41:45,416][Thread-1:11948][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 你没有携带认证参数]
+[2022-04-09 13:41:47,098][Thread-1:11948][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 你没有携带认证参数]
+[2022-04-09 13:42:10,891][Thread-1:11948][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 你没有携带认证参数]
+[2022-04-09 13:42:12,913][Thread-1:11948][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 你没有携带认证参数]
+[2022-04-09 13:42:17,659][Thread-1:11948][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 你没有携带认证参数]
+[2022-04-09 13:42:44,207][Thread-1:11972][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 您没有执行该操作的权限。]
+[2022-04-09 13:42:46,627][Thread-1:11972][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 您没有执行该操作的权限。]
+[2022-04-09 13:45:48,949][Thread-2:3196][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: 'BasePermissionMetaclass' object is not iterable]
+[2022-04-09 13:45:49,136][Thread-2:3196][task_id:django.request][log.py:230][ERROR][Internal Server Error: /user/signup/]
+Traceback (most recent call last):
+  File "D:\ENV\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\ENV\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\ENV\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\ENV\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "D:\ENV\lib\site-packages\rest_framework\renderers.py", line 655, in get_context
+    raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+  File "D:\ENV\lib\site-packages\rest_framework\renderers.py", line 541, in get_raw_data_form
+    if not self.show_form_for_method(view, method, request, instance):
+  File "D:\ENV\lib\site-packages\rest_framework\renderers.py", line 431, in show_form_for_method
+    view.check_permissions(request)
+  File "D:\ENV\lib\site-packages\rest_framework\views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "D:\ENV\lib\site-packages\rest_framework\views.py", line 278, in get_permissions
+    return [permission() for permission in self.permission_classes]
+TypeError: 'BasePermissionMetaclass' object is not iterable
+[2022-04-09 13:47:05,990][Thread-2:3196][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 你没有携带认证参数]
+[2022-04-09 13:47:12,229][Thread-2:3196][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 方法 “GET” 不被允许。]
+[2022-04-09 13:47:18,664][Thread-2:3196][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: 'BasePermissionMetaclass' object is not iterable]
+[2022-04-09 13:47:18,708][Thread-2:3196][task_id:django.request][log.py:230][ERROR][Internal Server Error: /user/signup/]
+Traceback (most recent call last):
+  File "D:\ENV\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\ENV\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\ENV\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\ENV\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "D:\ENV\lib\site-packages\rest_framework\renderers.py", line 655, in get_context
+    raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+  File "D:\ENV\lib\site-packages\rest_framework\renderers.py", line 541, in get_raw_data_form
+    if not self.show_form_for_method(view, method, request, instance):
+  File "D:\ENV\lib\site-packages\rest_framework\renderers.py", line 431, in show_form_for_method
+    view.check_permissions(request)
+  File "D:\ENV\lib\site-packages\rest_framework\views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "D:\ENV\lib\site-packages\rest_framework\views.py", line 278, in get_permissions
+    return [permission() for permission in self.permission_classes]
+TypeError: 'BasePermissionMetaclass' object is not iterable
+[2022-04-09 13:48:05,753][Thread-1:7460][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: 方法 “GET” 不被允许。]
+[2022-04-09 13:48:48,291][Thread-1:9728][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: 'BasePermissionMetaclass' object is not iterable]
+[2022-04-09 13:48:48,466][Thread-1:9728][task_id:django.request][log.py:230][ERROR][Internal Server Error: /user/signup/]
+Traceback (most recent call last):
+  File "D:\ENV\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\ENV\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\ENV\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\ENV\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\ENV\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "D:\ENV\lib\site-packages\rest_framework\renderers.py", line 655, in get_context
+    raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+  File "D:\ENV\lib\site-packages\rest_framework\renderers.py", line 541, in get_raw_data_form
+    if not self.show_form_for_method(view, method, request, instance):
+  File "D:\ENV\lib\site-packages\rest_framework\renderers.py", line 431, in show_form_for_method
+    view.check_permissions(request)
+  File "D:\ENV\lib\site-packages\rest_framework\views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "D:\ENV\lib\site-packages\rest_framework\views.py", line 278, in get_permissions
+    return [permission() for permission in self.permission_classes]
+TypeError: 'BasePermissionMetaclass' object is not iterable
+[2022-04-09 13:48:50,179][Thread-1:9728][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 方法 “GET” 不被允许。]
+[2022-04-09 13:49:03,955][Thread-4:11840][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 签名错误]
+[2022-04-09 13:49:17,609][Thread-4:11840][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: 'BasePermissionMetaclass' object is not iterable]
+[2022-04-09 13:49:39,002][Thread-4:11840][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: 'BasePermissionMetaclass' object is not iterable]
+[2022-04-09 13:56:00,425][Thread-1:12472][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 方法 “GET” 不被允许。]
+[2022-04-09 13:56:04,751][Thread-1:12472][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: 方法 “GET” 不被允许。]
+[2022-04-09 13:56:06,573][Thread-1:12472][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: 方法 “GET” 不被允许。]
+[2022-04-09 13:57:06,044][Thread-9:12548][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: 身份认证信息未提供。]
+[2022-04-09 13:58:38,036][Thread-9:12548][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: 身份认证信息未提供。]
+[2022-04-09 14:26:32,878][Thread-1:13696][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: Field name `user` is not valid for model `User`.]
+[2022-04-09 14:29:57,711][Thread-1:13656][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')], 'telephone': [ErrorDetail(string='该字段是必填项。', code='required')]}]
+[2022-04-09 14:30:24,270][Thread-1:13728][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-09 14:30:35,478][Thread-1:13728][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: .validate() should return the validated data]
+[2022-04-09 14:34:04,675][Thread-1:13824][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: .validate() should return the validated data]
+[2022-04-09 14:35:15,496][Thread-1:13200][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-09 14:56:28,263][Thread-1:1448][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')], 'password': [ErrorDetail(string='请确保这个字段至少包含 3 个字符。', code='min_length')], 'email': [ErrorDetail(string='该字段是必填项。', code='required')]}]
+[2022-04-09 14:59:39,939][Thread-1:13992][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')], 'password': [ErrorDetail(string='请确保这个字段至少包含 3 个字符。', code='min_length')], 'email': [ErrorDetail(string='该字段是必填项。', code='required')]}]
+[2022-04-09 14:59:41,865][Thread-1:13992][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')], 'password': [ErrorDetail(string='请确保这个字段至少包含 3 个字符。', code='min_length')], 'email': [ErrorDetail(string='该字段是必填项。', code='required')]}]
+[2022-04-09 14:59:57,650][Thread-1:13992][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')], 'email': [ErrorDetail(string='该字段是必填项。', code='required')]}]
+[2022-04-09 15:00:31,377][Thread-1:14288][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')], 'email': [ErrorDetail(string='该字段是必填项。', code='required')]}]
+[2022-04-09 15:00:39,895][Thread-1:13368][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')], 'email': [ErrorDetail(string='该字段是必填项。', code='required')]}]
+[2022-04-10 15:02:51,939][Thread-1:8108][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')], 'email': [ErrorDetail(string='该字段是必填项。', code='required')]}]
+[2022-04-10 15:03:14,767][Thread-1:11224][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-10 15:40:49,321][Thread-1:13252][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: The field 're_password' was declared on serializer SignUpSerialize, but has not been included in the 'fields' option.]
+[2022-04-10 15:41:12,852][Thread-1:13060][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')], 're_password': [ErrorDetail(string='该字段是必填项。', code='required')]}]
+[2022-04-10 15:41:20,421][Thread-1:13060][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'re_password': [ErrorDetail(string='该字段是必填项。', code='required')]}]
+[2022-04-10 15:43:15,096][Thread-1:8920][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'non_field_errors': [ErrorDetail(string='输入的密码不一致', code='invalid')]}]
+[2022-04-10 16:37:10,678][Thread-1:12152][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: create() takes 1 positional argument but 2 were given]
+[2022-04-10 16:37:59,498][Thread-1:12700][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: User() got an unexpected keyword argument 're_password']
+[2022-04-10 16:42:39,218][Thread-1:13152][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: User() got an unexpected keyword argument 're_password']
+[2022-04-10 16:43:40,314][Thread-1:11776][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-10 16:43:41,446][Thread-1:11776][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-10 16:44:28,720][Thread-1:12236][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: User() got an unexpected keyword argument 're_password']
+[2022-04-10 16:59:00,727][Thread-1:5732][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'non_field_errors': [ErrorDetail(string='此手机号已绑定其他账号', code='invalid')]}]
+[2022-04-10 17:02:03,072][Thread-1:12460][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-10 17:02:15,963][Thread-1:12836][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: print() takes at most 4 arguments (5 given)]
+[2022-04-10 17:02:24,062][Thread-1:4376][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-10 17:02:34,545][Thread-1:4376][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-10 17:03:17,591][Thread-6:11900][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-10 17:03:35,109][Thread-6:11900][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-10 17:04:32,407][Thread-6:3392][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: print() takes at most 4 arguments (5 given)]
+[2022-04-10 17:04:47,825][Thread-6:3392][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: print() takes at most 4 arguments (5 given)]
+[2022-04-10 17:12:58,967][Thread-1:12396][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: User() got an unexpected keyword argument 're_password']
+[2022-04-10 17:17:34,383][Thread-1:7188][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-10 17:18:54,180][Thread-1:11008][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-10 17:45:16,394][Thread-1:11616][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: 方法 “GET” 不被允许。]
+[2022-04-10 17:45:42,733][Thread-1:11616][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 方法 “POST” 不被允许。]
+[2022-04-12 11:36:18,275][Thread-1:2768][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-12 12:18:16,088][Thread-1:8292][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='A user with that username already exists.', code='unique')]}]
+[2022-04-12 12:18:28,457][Thread-1:7332][task_id:default][exception.py:8][ERROR][view: SignUpView, 错误: {'username': [ErrorDetail(string='已存在一位使用该名字的用户。', code='unique')]}]
+[2022-04-12 13:27:38,973][Thread-1:5980][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 身份认证信息未提供。]
+[2022-04-12 13:27:40,973][Thread-1:5980][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 身份认证信息未提供。]
+[2022-04-12 13:30:21,558][Thread-1:7212][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 身份认证信息未提供。]
+[2022-04-12 13:33:34,222][Thread-1:5688][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 你没有携带认证参数]
+[2022-04-12 13:33:35,721][Thread-1:5688][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 你没有携带认证参数]
+[2022-04-12 13:33:45,232][Thread-1:5080][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 您没有执行该操作的权限。]
+[2022-04-12 13:33:46,256][Thread-1:5080][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 您没有执行该操作的权限。]
+[2022-04-12 17:07:08,860][Thread-7:12284][task_id:default][exception.py:8][ERROR][view: BannerView, 错误: 你没有携带认证参数]
+[2022-04-12 17:57:27,834][Thread-1:4164][task_id:default][exception.py:8][ERROR][view: PythonCourseView, 错误: 'PythonCourseView' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.]
+[2022-04-13 13:14:42,839][Thread-2:11188][task_id:default][exception.py:8][ERROR][view: BannerView, 错误: 你没有携带认证参数]
+[2022-04-13 13:15:16,400][Thread-2:11188][task_id:default][exception.py:8][ERROR][view: BannerView, 错误: 你没有携带认证参数]
+[2022-04-13 13:17:28,154][Thread-3:11152][task_id:default][exception.py:8][ERROR][view: BannerView, 错误: 你没有携带认证参数]
+[2022-04-14 15:16:11,732][Thread-2:3332][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 方法 “GET” 不被允许。]
+[2022-04-14 15:16:33,665][Thread-9:11608][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 方法 “GET” 不被允许。]
+[2022-04-14 15:18:03,777][Thread-2:3332][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 你没有携带认证参数]
+[2022-04-14 15:18:48,478][Thread-11:10564][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 你没有携带认证参数]
