@@ -242,3 +242,5 @@ TypeError: 'BasePermissionMetaclass' object is not iterable
 [2022-04-14 15:16:33,665][Thread-9:11608][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: 方法 “GET” 不被允许。]
 [2022-04-14 15:18:03,777][Thread-2:3332][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 你没有携带认证参数]
 [2022-04-14 15:18:48,478][Thread-11:10564][task_id:default][exception.py:8][ERROR][view: TestLogin, 错误: 你没有携带认证参数]
+[2022-04-17 15:25:30,667][Thread-2:11792][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: (1146, "Table 'luffy.luffy_user' doesn't exist")]
+[2022-04-17 15:29:22,060][Thread-2:11792][task_id:default][exception.py:8][ERROR][view: LoginView, 错误: {'non_field_errors': [ErrorDetail(string='用户不存在', code='invalid')]}]
