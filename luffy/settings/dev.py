@@ -103,7 +103,7 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'PORT': 3306,
         'USER': 'ah7',
-        'PASSWORD': 'dwq0627.'
+        'PASSWORD': '%s' % os.environ.get('PWD')
     }
 }
 
